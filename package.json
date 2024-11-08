@@ -3,14 +3,18 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "http-server"
+    "start": "http-server -p 3000",
+    "test": "concurrently npm:start npm:test",
+    "playwright": "playwright test"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
     "@applitools/eyes-playwright": "^1.30.2",
-    "http-server": "^14.1.1"
+    "concurrently": "^9.1.0",
+    "http-server": "^14.1.1",
+    "serve": "^14.2.4"
   },
   "devDependencies": {
     "@playwright/test": "^1.48.2",
