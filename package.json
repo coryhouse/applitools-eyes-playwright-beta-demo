@@ -1,0 +1,19 @@
+{
+  "name": "applitools-eyes-playwright-beta-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@applitools/eyes-playwright": "^1.30.2",
+    "http-server": "^14.1.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.48.2",
+    "@types/node": "^22.9.0"
+  }
+}
