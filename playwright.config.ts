@@ -29,8 +29,17 @@ export default defineConfig<EyesFixture>({
     /* Configuration for Eyes VisualAI */
     eyesConfig: {
       /* The following and other configuration parameters are documented at: <url> */
-      apiKey: "O7Ml9wjUQkY63Bkmx9HyshMUw8bi5111Mb0EqEcMneieQ110", // alternatively, set this via environment variable APPLITOOLS_API_KEY
-      serverUrl: "https://testeyes.applitools.com/",
+      serverUrl: "https://eyes.applitools.com/",
+      // type: "ufg", // Uncomment this and browsersInfo to use Ultrafast Grid instead of "classic" mode, which is the default, which uses Playwright's browser settings.
+      // browsersInfo: [
+      //   { width: 1200, height: 900, name: "chrome" },
+      //   { width: 1200, height: 900, name: "safari" },
+      //   { width: 1200, height: 900, name: "firefox" },
+      //   { width: 1200, height: 900, name: "edgechromium" },
+      //   { chromeEmulationInfo: { deviceName: "iPad 7th Gen" } },
+      //   { chromeEmulationInfo: { deviceName: "Galaxy S20" } },
+      //   { iosDeviceInfo: { deviceName: "iPhone 11 Pro" } },
+      // ],
 
       // failTestsOnDiff: false,
       // appName: 'My App',
